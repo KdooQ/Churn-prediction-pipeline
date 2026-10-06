@@ -1,0 +1,21 @@
+# Entorno virtual
+.venv/
+env/
+venv/
+
+# Caché de Python y Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datos (no se suben a GitHub)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Modelos guardados pesados
+models/*.joblib
+
+# VS Code / IDE
+.vscode/
