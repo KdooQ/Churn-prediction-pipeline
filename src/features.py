@@ -10,3 +10,5 @@ def build_preprocessor(X):
         ("num", StandardScaler(), NUMERIC),
         ("cat", OneHotEncoder(handle_unknown="ignore"), categorical),
     ])
+
+
