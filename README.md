@@ -22,7 +22,7 @@ Telco Customer Churn (IBM), versión clásica de 7043 clientes: [Kaggle](https:/
 ## Cómo ejecutarlo
 
 ```bash
-git clone https://github.com/TU-USUARIO/Churn-prediction-pipeline.git
+git clone https://github.com/KdooQ/Churn-prediction-pipeline.git
 cd Churn-prediction-pipeline
 python -m venv .venv
 .venv\Scripts\activate        # Mac/Linux: source .venv/bin/activate
